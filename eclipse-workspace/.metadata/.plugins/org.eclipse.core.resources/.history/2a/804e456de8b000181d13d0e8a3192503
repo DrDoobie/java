@@ -4,7 +4,7 @@ import java.util.*;
 public class generator {
 
 	public static void main(String[] args) {
-		GenerateSentence(10);
+		GenerateSentence();
 	}
 	
 	//Generate a random number
@@ -13,14 +13,14 @@ public class generator {
 	}
 	
 	//Generate a random sentence.
-	private static void GenerateSentence (int x) {
-		//Print x sentences
-		for(int n = 0; n < x; n++)
+	private static void GenerateSentence () {
+		//Print ten sentences
+		for(int n = 0; n < 10; n++)
 		{
 			//All words usable by generator
 			Random rand = new Random();
 			
-			String Nouns[] = {"I", "You", "She", "He", "John", "George", "Paul", "Ringo", "Mary Jane"};
+			String Nouns[] = {"I", "You", "She", "He", "John", "George", "Paul", "Ringo"};
 			String Verbs[] = {"sing", "run", "jump", "walk", "smoke"};
 			String Adjectives[] = {"gladly", "sadly", "great"};
 			
