@@ -28,15 +28,6 @@ public class generator {
 			int n1 = rand.nextInt(Nouns.length);
 			int n2 = rand.nextInt(Verbs.length);
 			int n3 = rand.nextInt(Adjectives.length);
-			
-			//If verb requires s
-			if(n1 >= 2)
-			{
-				System.out.println(Nouns[n1] + " " + Verbs[n2] + "s " + Adjectives[n3] + ".");
-				
-			} else {
-				System.out.println(Nouns[n1] + " " + Verbs[n2] + " " + Adjectives[n3] + ".");
-			}
 		}
 	}
 }

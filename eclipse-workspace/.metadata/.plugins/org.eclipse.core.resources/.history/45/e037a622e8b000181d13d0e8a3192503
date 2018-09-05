@@ -32,10 +32,10 @@ public class generator {
 			//If verb requires s
 			if(n1 >= 2)
 			{
-				System.out.println(Nouns[n1] + " " + Verbs[n2] + "s " + Adjectives[n3] + ".");
+				System.out.println(Nouns[n1] + " " + Verbs[n2] + "s" + Adjectives[n3] + ".");
 				
 			} else {
-				System.out.println(Nouns[n1] + " " + Verbs[n2] + " " + Adjectives[n3] + ".");
+				System.out.println(Nouns[n1] + Verbs[n2] + Adjectives[n3] + ".");
 			}
 		}
 	}

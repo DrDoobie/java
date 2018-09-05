@@ -4,7 +4,7 @@ import java.util.*;
 public class generator {
 
 	public static void main(String[] args) {
-		GenerateSentence();
+		
 	}
 	
 	//Generate a random number
@@ -17,7 +17,7 @@ public class generator {
 		//Print ten sentences
 		for(int n = 0; n < 10; n++)
 		{
-			//All words usable by generator
+			//All words useable by generator
 			Random rand = new Random();
 			
 			String Nouns[] = {"I", "You", "She", "He", "John", "George", "Paul", "Ringo"};
@@ -26,17 +26,8 @@ public class generator {
 			
 			//Assign "n" values
 			int n1 = rand.nextInt(Nouns.length);
-			int n2 = rand.nextInt(Verbs.length);
-			int n3 = rand.nextInt(Adjectives.length);
-			
-			//If verb requires s
-			if(n1 >= 2)
-			{
-				System.out.println(Nouns[n1] + " " + Verbs[n2] + "s " + Adjectives[n3] + ".");
-				
-			} else {
-				System.out.println(Nouns[n1] + " " + Verbs[n2] + " " + Adjectives[n3] + ".");
-			}
+			int n2
+			int n3
 		}
 	}
 }
