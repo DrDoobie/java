@@ -1,0 +1,8 @@
+package intro;
+
+public class sample {
+
+	public static void awdw(String[] args) {
+		System.out.print("WAD");
+	}
+}
