@@ -1,0 +1,13 @@
+package intro;
+import java.util.Random;
+
+public class generator {
+
+	public static void main(String[] args) {
+		GenerateRandom(10);
+	}
+	
+	private static void GenerateRandom (float max) {
+		System.out.println(Math.floor((Math.random() * max) + 1));
+	}
+}

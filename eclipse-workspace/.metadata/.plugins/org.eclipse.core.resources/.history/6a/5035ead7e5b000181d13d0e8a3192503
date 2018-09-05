@@ -1,0 +1,12 @@
+package intro;
+
+public class generator {
+
+	public static void main(String[] args) {
+		GenerateRandom4();
+	}
+	
+	private static void GenerateRandom (float max) {
+		Math.floor((Math.random() * max) + 1);
+	}
+}

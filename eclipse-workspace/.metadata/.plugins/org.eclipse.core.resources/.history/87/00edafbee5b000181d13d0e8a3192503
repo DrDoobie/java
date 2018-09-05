@@ -1,0 +1,13 @@
+package intro;
+
+public class generator {
+
+	public static void main(String[] args) {
+		GenerateRandom();
+	}
+	
+	private static void GenerateRandom () {
+		float val;
+		val = Math.floor((Math.random() * 10) + 1);
+	}
+}

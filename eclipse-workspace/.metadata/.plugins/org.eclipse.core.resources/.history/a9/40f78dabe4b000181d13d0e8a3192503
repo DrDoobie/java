@@ -1,0 +1,12 @@
+package intro;
+
+public class generator {
+
+	public static void main(String[] args) {
+		
+	}
+	
+	private static void GenerateRandom () {
+		float randNum = Math.floor(Math.random() * 255);
+	}
+}
