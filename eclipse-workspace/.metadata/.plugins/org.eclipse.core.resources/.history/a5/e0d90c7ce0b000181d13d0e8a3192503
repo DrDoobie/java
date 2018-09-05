@@ -1,0 +1,19 @@
+package intro;
+
+public class sample {
+//Complete beginner to Java, this is mainly for playing around/note taking
+
+	public static void main(String[] args) {
+		CalcSum(1, 2)
+	}
+	
+	private static void HelloWorld () {
+		//This is how you print code to the console.
+		System.out.println("Hello World");
+	}
+	
+	private static void CalcSum (int val1, int val2) {
+		sum = a;
+		System.out.println(val1);
+	}
+}

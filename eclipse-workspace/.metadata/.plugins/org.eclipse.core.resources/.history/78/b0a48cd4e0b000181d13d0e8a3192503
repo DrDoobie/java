@@ -20,8 +20,6 @@ public class sample {
 	
 	private static void CalcDifference (int val1, int val2) {
 		int difference;
-		difference = val1 - val2;
-		System.out.println("The difference is: " + difference);
 	}
 	
 	private static void CalcProduct (int val1, int val2) {
