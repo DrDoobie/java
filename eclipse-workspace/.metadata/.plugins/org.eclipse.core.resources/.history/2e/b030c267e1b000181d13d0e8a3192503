@@ -12,7 +12,6 @@ public class sample {
 		System.out.println("Hello World");
 	}
 	
-	//Some simple mathmatic functions
 	private static void CalcSum (float val1, float val2) {
 		float sum;
 		sum = val1 + val2;
