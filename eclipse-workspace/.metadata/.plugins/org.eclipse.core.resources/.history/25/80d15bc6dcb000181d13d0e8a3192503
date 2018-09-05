@@ -1,0 +1,60 @@
+package intro;
+import java.util.*;
+
+public class animal {
+	private boolean hasOwner;
+	private String name;
+	private int age;
+	private float weight;	
+
+	public boolean isHasOwner() {
+		return hasOwner;
+	}
+
+	public void setHasOwner(boolean hasOwner) {
+		this.hasOwner = hasOwner;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public float getWeight() {
+		return weight;
+	}
+
+	public void setWeight(float weight) {
+		this.weight = weight;
+	}
+
+	protected static int numberOfAnimals = 0;
+	static Scanner userInput = new Scanner(System.in);
+	
+	public animal () {
+		numberOfAnimals ++;
+		int sum = 5 + 1;
+		
+		System.out.println("5 + 1 = " + sum);
+		System.out.print("Enter the name: \n");
+		
+		if(userInput.hasNextLine()) {
+			this.setName(userInput.nextLine());
+		}
+	}
+	
+	public static void main(String[] args) { 
+		animal theAnimal = new animal();
+	}
+}

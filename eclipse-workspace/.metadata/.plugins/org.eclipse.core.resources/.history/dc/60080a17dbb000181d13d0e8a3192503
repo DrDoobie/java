@@ -1,0 +1,18 @@
+package intro;
+import java.util.*;
+
+public class animal {
+	private boolean hasOwner = false;
+	private string name;
+	private float weight;
+	private byte age;
+	private long animalID;
+	
+	protected static int numberOfAnimals = 0;
+	static Scanner userInput = new Scanner(System.in);
+	
+	public animal () {
+		s
+	}
+	
+}

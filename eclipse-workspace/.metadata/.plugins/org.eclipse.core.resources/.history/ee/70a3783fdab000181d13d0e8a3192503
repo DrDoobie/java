@@ -1,0 +1,9 @@
+package intro;
+import java.util.*;
+
+public class animal {
+	private string name;
+	private float weight;
+	private boolean hasOwner = false;
+	private byte age;
+}

@@ -1,0 +1,19 @@
+package intro;
+import java.util.*;
+
+public class animal {
+	
+	protected static int numberOfAnimals = 0;
+	static Scanner userInput = new Scanner(System.in);
+	
+	public animal () {
+		numberOfAnimals ++;
+		int sum = 5 + 1;
+		
+		System.out.println("5 + 1 = " + sum);
+	}
+	
+	public static void main(String[] args) {
+		animal theAnimal = new animal();
+	}
+}

@@ -1,0 +1,7 @@
+package intro;
+import java.util.*;
+
+public class animal {
+	public static final double VALUE = 1.5245;
+	private String name;
+}
