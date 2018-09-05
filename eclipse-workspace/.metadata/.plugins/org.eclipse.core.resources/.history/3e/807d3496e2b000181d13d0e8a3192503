@@ -44,9 +44,9 @@ public class sample {
 		product = val1 * val2;
 		quotient = val1 / val2;
 		
-		System.out.println(" Sum: " + sum +
-							"\n Difference: " + difference +
-							"\n Product: " + product +
-							"\n Quotient: " + quotient);
+		System.out.println("Sum: \n" + sum +
+							"\n Difference: \n" + difference +
+							"\n Product: \n" + product +
+							"Quotient: \n" + quotient);
 	}
 }

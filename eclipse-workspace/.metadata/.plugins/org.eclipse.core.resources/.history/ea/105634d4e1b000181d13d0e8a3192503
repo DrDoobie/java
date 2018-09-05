@@ -4,7 +4,7 @@ public class sample {
 //Complete beginner to Java, this is mainly for playing around/note taking
 
 	public static void main(String[] args) {
-		CalculateAll(10, 4);
+		//Run functions here
 	}
 	
 	private static void HelloWorld () {
@@ -37,16 +37,7 @@ public class sample {
 		System.out.println("The quotient is: " + quotient);
 	}
 	
-	private static void CalculateAll (int val1, int val2) {
-		float sum, difference, product, quotient;
-		sum = val1 + val2;
-		difference = val1 - val2;
-		product = val1 * val2;
-		quotient = val1 / val2;
+	private static void MassCalculate (int val1, int val2) {
 		
-		System.out.println(" Sum: " + sum +
-							"\n Difference: " + difference +
-							"\n Product: " + product +
-							"\n Quotient: " + quotient);
 	}
 }
