@@ -1,0 +1,13 @@
+package intro;
+import java.util.Scanner;
+
+public class ttable {
+
+	public static void main (String[] args) {
+		PrintTable(8);
+	}
+	
+	private static void PrintTable (int x) {
+		Scanner in = new Scanner(System.in);
+	}
+}

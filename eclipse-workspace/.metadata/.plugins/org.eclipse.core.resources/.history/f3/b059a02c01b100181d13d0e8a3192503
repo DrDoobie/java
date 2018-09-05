@@ -1,0 +1,12 @@
+package intro;
+
+public class ttable {
+
+	public static void main (String[] args) {
+		
+	}
+	
+	private static void PrintTable () {
+		
+	}
+}
