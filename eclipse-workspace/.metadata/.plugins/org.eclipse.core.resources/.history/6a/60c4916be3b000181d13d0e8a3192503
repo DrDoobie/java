@@ -38,9 +38,9 @@ public class calculator {
 		product = val1 * val2;
 		quotient = val1 / val2;
 		
-		System.out.println("Sum: " + sum +
-							"\nDifference: " + difference +
-							"\nProduct: " + product +
-							"\nQuotient: " + quotient);
+		System.out.println(" Sum: " + sum +
+							"\n Difference: " + difference +
+							"\n Product: " + product +
+							"\n Quotient: " + quotient);
 	}
 }
