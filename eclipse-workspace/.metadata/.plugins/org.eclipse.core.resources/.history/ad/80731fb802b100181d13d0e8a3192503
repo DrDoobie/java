@@ -20,9 +20,9 @@ public class generator {
 			//All words usable by generator
 			Random rand = new Random();
 			
-			String Nouns[] = {"John", "George", "Paul", "Ringo", "Mary Jane"};
-			String Verbs[] = {"sing", "frolic", "hop", "walk", "skip"};
-			String Adjectives[] = {"gladly", "sadly"};
+			String Nouns[] = {"I", "You", "She", "He", "John", "George", "Paul", "Ringo", "Mary Jane"};
+			String Verbs[] = {"sing", "run", "jump", "walk", "smoke"};
+			String Adjectives[] = {"gladly", "sadly", "great"};
 			
 			//Assign "n" values
 			int n1 = rand.nextInt(Nouns.length);

@@ -22,7 +22,7 @@ public class generator {
 			
 			String Nouns[] = {"John", "George", "Paul", "Ringo", "Mary Jane"};
 			String Verbs[] = {"sing", "frolic", "hop", "walk", "skip"};
-			String Adjectives[] = {"gladly", "sadly"};
+			String Adjectives[] = {"gladly", "sadly", "great"};
 			
 			//Assign "n" values
 			int n1 = rand.nextInt(Nouns.length);
