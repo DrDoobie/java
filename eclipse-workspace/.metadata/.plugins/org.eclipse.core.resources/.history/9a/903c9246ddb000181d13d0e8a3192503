@@ -1,0 +1,9 @@
+package intro;
+
+public class sample {
+
+	public static void main(String[] args) {
+		//This is how you print code to the console.
+		System.out.println("Hello World");
+	}
+}
